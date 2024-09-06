@@ -1,0 +1,309 @@
+/* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+    background-image: url(../Image/red\ and\ black\ wallpaper.jpeg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+}
+
+.logo{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.menu a{
+    color: rgb(186, 186, 186);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 20px;
+}
+
+.toggle{
+    display: none;
+}
+
+hr{
+    display: none;
+}
+
+
+/* Container */
+
+.heading{
+    padding-left: 40px;
+}
+
+.heading h1{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 45px;
+    padding-left: 10px;
+    /* text-decoration: underline; */
+}
+
+
+.heading span{
+    padding-left: 60px;
+}
+
+.heading p{
+    line-height: 28px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.heading span{
+    display: none;
+}
+
+.heading button{
+    background-color: rgb(238, 231, 211);
+    color: black;
+    padding: 2px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.more{
+    padding-left: 0px;
+    margin-left: -70px;
+    padding-top: 10px;
+}
+
+.heading .read:hover{
+    background-color: maroon;
+    color: white;
+    transition: 0.7s;
+    opacity: 0.8;
+}
+
+.rules{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 60px;
+    margin-right: 60px;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.rules div{
+    height: 370px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: 3px solid black;
+}
+
+.rules a{
+    text-decoration: none;
+}
+
+.rules a:hover{
+    opacity: 0.7;
+    background-color: black;
+    color: goldenrod;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.rules p{
+    color: white;
+    line-height: 22px;
+}
+
+.rules h2{
+    color: goldenrod;
+    padding-bottom: 20px;
+}
+
+.one{
+    background-color: blue;
+}
+
+.one h2{
+    color: maroon;
+    text-decoration: none;
+}
+
+.two{
+    background-color: maroon !important;
+}
+
+.two p{
+    color: white;
+}
+
+.two h2{
+    color: goldenrod;
+}
+
+.three{
+    background-color: maroon !important;
+}
+
+.three h2{
+    color: black;
+}
+
+.four{
+    background-color: goldenrod !important;
+}
+
+.four h2{
+    color: white;
+}
+
+.four p{
+    color: black;
+}
+
+.five{
+    background-color: burlywood;
+}
+
+.socials{
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    height: 100px;
+}
+
+.socials br{
+    display: none;
+}
+
+.socials p{
+    padding-top: 10px;;
+    padding-left: 10px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.socials img{
+    width: 15px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.socials a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.socials span{
+    color: maroon;
+    padding: 0px 10px 5px 10px;
+    background-color: white;
+}
+
+.socials a:hover{
+    opacity: 0.6;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    height: 160px;
+    margin-top: 120px;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: maroon;
+}
+
+.footer .uno{
+    display: flex;
+    margin-left: 570px;
+    margin-top: 20px;
+}
+
+.footer .duos{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.footer .trio{
+    display: flex;
+    margin-left: 415px;
+    margin-top: 10px; 
+}
+
+.copyright{
+    padding-left: 580px;
+    padding-top: 40px;
+    color: grey !important;
+}
+

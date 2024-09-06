@@ -1,0 +1,228 @@
+/* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+    background-image: url(../Image/red\ and\ black\ wallpaper.jpeg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 10px;
+    height: 120px;
+    display: flex;
+}
+
+.logo{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.menu a{
+    color: rgb(186, 186, 186);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 20px;
+}
+
+
+.toggle{
+    display: none;
+}
+
+hr{
+    display: none;
+}
+
+
+/* Container */
+
+.heading h2{
+    color: wheat;
+    margin-left: 85px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+   
+}
+
+.heading span{
+    font-size: 40px;
+    color:olivedrab;
+
+}
+
+.history-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 20px;
+}
+
+.history{
+    padding-left: 70px;
+    margin-left: 20px;
+    z-index: 1;
+    color: white;
+    line-height: 25px !important;
+}
+
+.history img{
+    width: 550px;
+    height: 550px;
+    z-index: 1;
+    margin-left: 70px;
+    border-radius: 300px;
+}
+
+.history p{
+    color: white;
+    padding-right: 20px;
+    padding-top: 20px;
+    line-height: 35px;
+}
+
+
+ul{
+    padding-top: 20px;
+}
+
+ul li{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* color: wheat; */
+    /* background-color: maroon; */
+}
+
+.search{
+    background-color: rgb(124, 19, 19);
+    border-left-color:red ;
+    margin-top: 0px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.search h2{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.search input{
+    margin-left: 40px;
+    padding: 7px 90px 7px 0px;
+    outline: none;
+}
+
+.search button{
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 4px 4px 4px 4px;
+}
+
+.socials{
+    color: white;
+    padding-left: 40px;
+    margin-top: 500px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.socials img{
+    width: 25px;
+    margin-right: 20px;
+    padding-top: 0px;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    height: 160px;
+    margin-top: 120px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.footer a{
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: maroon;
+}
+
+.footer .uno{
+    display: flex;
+    margin-left: 570px;
+    margin-top: 20px;
+}
+
+.footer .duos{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.footer .trio{
+    display: flex;
+    margin-left: 415px;
+    margin-top: 10px; 
+}
+
+.copyright{
+    padding-left: 580px;
+    padding-top: 40px;
+    color: grey !important;
+}
+

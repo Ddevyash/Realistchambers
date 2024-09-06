@@ -1,0 +1,267 @@
+/* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+    background-image: url(../Image/red\ and\ black\ wallpaper.jpeg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 10px;
+    height: 120px;
+    display: flex;
+}
+
+.logo{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.menu a{
+    color: rgb(186, 186, 186);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 20px;
+}
+
+.toggle{
+    display: none;
+
+}
+
+.hr{
+    display: none;
+}
+
+.nav-bar hr{
+    display: none;
+}
+
+
+
+/* container */
+
+.card{
+    background-color: black;
+    height: 480px;
+    width: 380px;
+    z-index: 1;
+    margin-left: 350px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.card h1{
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+input{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding: 6px 0px;
+    width: 300px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+input:focus{
+    outline: none;
+    color: black;
+}
+
+input::placeholder{
+    color: maroon;
+    padding-left: 10px;
+}
+
+textarea{
+    margin-left: 40px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    margin-top: 8px;
+
+}
+
+textarea:focus{
+    color: black;
+    outline: none;
+}
+
+label{
+    color: whitesmoke;
+    padding-left: 42px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color:gold;
+    color: black;
+    margin-left: 40px;
+    width: 300px;
+    padding: 10px 0px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+.line{
+    background-color: goldenrod;
+    position: absolute;
+    width: 532px;
+    top: 420px;
+    right: 0px;
+    color: goldenrod;
+    height: 2px;
+    display: none;
+}
+
+.line-two{
+    background-color: goldenrod;
+    position: absolute;
+    top: 200px;
+    width: 350px;
+    height: 2px;
+    display: none;
+}
+
+.socials{
+    /* background-color:maroon; */
+    position: absolute;
+    top: 190px;
+    margin-top: 130px;
+    margin-left: 20px;
+    margin-right: 40px;
+    padding: 5px 0px;
+    opacity: 0.7;
+}
+
+.socials img{
+    width: 20px;
+}
+
+.socials p{
+    margin-bottom: 5px;
+    color: white;
+    line-height: 35px;
+
+}
+
+.socials a{
+    color: white;
+    padding-right: 20px;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.socials a:hover{
+    color: goldenrod;
+    
+}
+
+.socials span{
+    font-size: 20px;
+}
+
+
+
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    height: 160px;
+    margin-top: 180px;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: maroon;
+}
+
+.footer .uno{
+    display: flex;
+    margin-left: 570px;
+    margin-top: 20px;
+}
+
+.footer .duos{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.footer .trio{
+    display: flex;
+    margin-left: 415px;
+    margin-top: 10px; 
+}
+
+.copyright{
+    padding-left: 580px;
+    padding-top: 40px;
+    color: grey !important;
+}
+

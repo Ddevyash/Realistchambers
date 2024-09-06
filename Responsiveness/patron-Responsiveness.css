@@ -1,0 +1,2843 @@
+@media screen and (max-width:1024px) {
+
+    /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 120px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 1024px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 19px;
+}
+
+.logo img{
+    width: 80px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 30px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 95px;
+    background-color: white;
+    width:1024px;
+    height: 890px;
+    line-height: 55px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 30px;
+}
+
+.toggle{
+    position: absolute;
+    right: 50px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 33px;
+    width: 75px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 30px;
+}
+
+
+  /* Container */ 
+    
+  .patron-profile{
+    background-attachment: blue;
+    margin-top: 20px;
+}
+
+.patron-note{
+    margin-left: 0px;
+    font-size: 22px;
+    padding-right: 20px;
+    
+}
+
+.patron-image{
+    z-index: 1;
+    padding-left: 135px;
+    padding-top: 30px;
+    width: 780px;
+
+}
+
+img{
+    width: 750px;
+}
+
+.patron-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 12px;
+}
+
+.patron-profile h1{
+    color: wheat;
+    padding-left: 30px;
+    font-size: 50px;
+    padding-bottom:8px;
+    margin-top: 120px;
+}
+
+.patron-note h2{
+    color: white;
+    padding-top: 20px;
+    margin-left: 40px;
+    font-size: 35px;
+}
+
+.patron-note p{
+    color: wheat;
+    padding-top: 25px;
+    line-height: 27px;
+    padding-right: 40px;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+
+hr{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 2px;
+}
+
+/* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 40px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 440px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:912px) {
+     /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 105px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 1024px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.logo img{
+    width: 80px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 22px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 95px;
+    background-color: white;
+    width:1024px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 150px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 33px;
+    width: 75px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 30px;
+}   
+
+
+  /* Container */ 
+    
+  .patron-profile{
+    background-attachment: blue;
+}
+
+.patron-note{
+    margin-left: 0px;
+    font-size: 18px;
+    padding-right: 20px;
+    
+}
+
+.patron-image{
+    z-index: 1;
+    padding-left: 110px;
+    padding-top: 30px;
+    width: 780px;
+
+}
+
+img{
+    width: 680px;
+}
+
+.patron-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 12px;
+}
+
+.patron-profile h1{
+    color: wheat;
+    padding-left: 30px;
+    font-size: 40px;
+    padding-bottom:8px;
+    margin-top: 120px;
+}
+
+.patron-note h2{
+    color: white;
+    padding-top: 20px;
+    margin-left: 45px;
+}
+
+.patron-note p{
+    color: wheat;
+    padding-top: 25px;
+    line-height: 27px;
+    padding-right: 40px;
+    margin-right: 0px;
+    margin-left: 45px;
+}
+
+
+hr{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 2px;
+}
+
+
+ /* Footer */
+
+ .footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 40px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 380px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:852px) {
+
+    /* Navigation Bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 90px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 852px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width:852px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 40px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 25px;
+    width: 60px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 15px;
+}
+
+
+  /* Container */ 
+    
+  .patron-profile{
+    background-attachment: blue;
+}
+
+.patron-note{
+    /* margin-right: 20px; */
+    margin-left: 0px;
+    font-size: 18px;
+    padding-right: 20px;
+    
+}
+
+.patron-image{
+    z-index: 1;
+    padding-left: 110px;
+    padding-top: 30px;
+    width: 780px;
+
+}
+
+img{
+    width: 550px;
+}
+
+.patron-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 12px;
+}
+
+.patron-profile h1{
+    color: wheat;
+    padding-left: 30px;
+    font-size: 40px;
+    padding-bottom:8px;
+    margin-top: 120px;
+}
+
+.patron-note h2{
+    color: white;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.patron-note p{
+    color: wheat;
+    padding-top: 25px;
+    line-height: 27px;
+    padding-right: 40px;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+
+
+hr{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 2px;
+}
+
+ /* Footer */
+
+ .footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 360px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:820px) {
+    /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 820px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width:820px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 40px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 25px;
+    width: 60px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 15px;
+}
+
+  /* Container */ 
+    
+  .patron-profile{
+    background-attachment: blue;
+}
+
+.patron-note{
+    /* margin-right: 20px; */
+    margin-left: 0px;
+    font-size: 18px;
+    padding-right: 20px;
+    
+}
+
+.patron-image{
+    z-index: 1;
+    padding-left: 135px;
+    padding-top: 30px;
+    width: 780px;
+
+}
+
+img{
+    width: 550px;
+}
+
+.patron-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 12px;
+}
+
+.patron-profile h1{
+    color: wheat;
+    padding-left: 30px;
+    font-size: 40px;
+    padding-bottom:8px;
+    margin-top: 120px;
+}
+
+.patron-note h2{
+    color: white;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.patron-note p{
+    color: wheat;
+    padding-top: 25px;
+    line-height: 27px;
+    padding-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+hr{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 2px;
+}
+
+ /* Footer */
+
+ .footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 40px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 320px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+      /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 90px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 770px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 60px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 770px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 25px;
+    width: 60px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 15px;
+}
+
+  /* Container */ 
+    
+  .patron-profile{
+    background-attachment: blue;
+}
+
+.patron-note{
+    /* margin-right: 20px; */
+    margin-left: 0px;
+    font-size: 18px;
+    padding-right: 20px;
+    
+}
+
+.patron-image{
+    z-index: 1;
+    padding-left: 110px;
+    padding-top: 30px;
+    width: 780px;
+
+}
+
+img{
+    width: 550px;
+}
+
+.patron-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 12px;
+}
+
+.patron-profile h1{
+    color: wheat;
+    padding-left: 30px;
+    font-size: 40px;
+    padding-bottom:8px;
+    margin-top: 120px;
+}
+
+.patron-note h2{
+    color: white;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.patron-note p{
+    color: wheat;
+    padding-top: 25px;
+    line-height: 27px;
+    padding-right: 40px;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+
+
+hr{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 2px;
+}
+
+   /* Footer */
+
+   .footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 40px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 320px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:540px) {
+      /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 85px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 540px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 60px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 20px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 540px;
+    height: 1290px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 20px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 24px;
+    width: 55px;
+    display: block;
+}
+
+.cancel{
+    width: 40px;
+    display: none;
+    padding-top: 16px;
+}
+
+/* Container */ 
+    
+.patron-profile{
+    background-attachment: blue;
+}
+
+.patron-note{
+    margin-right: -90px;
+    margin-left: 15px;
+}
+
+.patron-image{
+    z-index: 1;
+    padding-left: 45px;
+    padding-top: 30px;
+    width: 480px;
+
+}
+
+img{
+    width: 450px;
+}
+
+.patron-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 12px;
+}
+
+.patron-profile h1{
+    color: wheat;
+    padding-left: 30px;
+    font-size: 40px;
+    padding-bottom:8px;
+    margin-top: 120px;
+}
+
+.patron-note h2{
+    color: white;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.patron-note p{
+    color: wheat;
+    padding-top: 25px;
+    line-height: 27px;
+}
+
+
+hr{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 2px;
+}
+
+/* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 40px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 220px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:430px) {
+    
+        /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 75px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 430px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 55px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 430px;
+    height: 890px;
+    line-height: 25px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 20px;
+    width: 55px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 10px;
+}
+
+    
+    /* Container */ 
+    
+    .patron-profile{
+        background-attachment: blue;
+    }
+    
+    .patron-note{
+        margin-right: 20px;
+        margin-left: 15px;
+    }
+    
+    .patron-image{
+        z-index: 1;
+        padding-left: 25px;
+        padding-top: 30px;
+        width: 380px;
+    
+    }
+    
+    img{
+        width: 450px;
+    }
+    
+    .patron-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 12px;
+    }
+    
+    .patron-profile h1{
+        color: wheat;
+        padding-left: 30px;
+        font-size: 40px;
+        padding-bottom:8px;
+        margin-top: 120px;
+    }
+    
+    .patron-note h2{
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .patron-note p{
+        color: wheat;
+        padding-top: 25px;
+        line-height: 27px;
+        margin-right: -60px;
+        margin-left: 8px;
+    }
+    
+    
+    hr{
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 2px;
+    }
+    
+    
+    
+    
+    /* Footer */
+    
+    
+    .footer{
+        background-color:white;
+        height: 50px;
+        overflow: hidden;
+        padding-bottom: 0px;
+        margin-top: 30px;
+        border-radius: 0px;
+        color: black;
+        position: relative;
+    }
+    
+    .footer a{
+        color: black;
+        text-decoration: none;
+        margin-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .footer a:hover{
+        color: maroon;
+        padding-right: 20px;
+    }
+    
+    .footer .uno{
+        display: inline-block;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: -20px;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    
+    .footer .duos{
+        padding-left: 30px;
+        display: block;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-right: 30px;
+    }
+    
+    .footer .trio{
+        display: block;
+        margin-left: 0px;
+        margin-top: 0px; 
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .copyright{
+        padding-left: 140px;
+        padding-bottom: -200px;
+        color: goldenrod !important;
+        margin-top: -40px;
+    }
+    
+    .footer hr{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iphone XR */
+
+@media screen and (max-width:414px) {
+
+
+/* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 75px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 55px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 414px;
+    height: 790px;
+    line-height: 30px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 20px;
+    width: 55px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 10px;
+}
+
+
+/* Container */ 
+
+.patron-profile{
+    background-attachment: blue;
+}
+
+.patron-note{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.patron-image{
+    z-index: 1;
+    padding-left: 15px;
+    padding-top: 30px;
+    width: 380px;
+
+}
+
+img{
+    width: 450px;
+}
+
+.patron-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 12px;
+}
+
+.patron-profile h1{
+    color: wheat;
+    padding-left: 30px;
+    font-size: 40px;
+    padding-bottom:8px;
+    margin-top: 120px;
+}
+
+.patron-note h2{
+    color: white;
+    padding-top: 20px;
+}
+
+.patron-note p{
+    color: wheat;
+    padding-top: 25px;
+    line-height: 27px;
+    margin-right: -50px;
+    margin-left: 10px;
+}
+
+
+hr{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 2px;
+}
+
+
+
+
+/* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 40px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:412px) {
+
+    /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 75px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 55px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 414px;
+    height: 915px;
+    line-height: 30px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 20px;
+    width: 55px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 10px;
+}
+    
+    /* Container */ 
+    
+    .patron-profile{
+        background-attachment: blue;
+    }
+    
+    .patron-note{
+        margin-right: 0px;
+        margin-left: 15px;
+    }
+    
+    .patron-image{
+        z-index: 1;
+        padding-left: 16px;
+        padding-top: 30px;
+        width: 380px;
+    
+    }
+    
+    img{
+        width: 450px;
+    }
+    
+    .patron-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 12px;
+    }
+    
+    .patron-profile h1{
+        color: wheat;
+        padding-left: 30px;
+        font-size: 40px;
+        padding-bottom:8px;
+        margin-top: 120px;
+    }
+    
+    .patron-note h2{
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .patron-note p{
+        color: wheat;
+        padding-top: 25px;
+        line-height: 27px;
+        margin-right: -40px;
+        margin-left: 0px;
+    }
+    
+    
+    hr{
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 2px;
+    }
+    
+    
+    
+    
+    /* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 40px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+}
+
+.footer .trio{
+    display: none;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+@media screen and (max-width:390px) {
+    
+
+   /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 70px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 55px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 414px;
+    height: 790px;
+    line-height: 30px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 45px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 20px;
+    width: 50px;
+    display: block;
+}
+
+.cancel{
+    width: 40px;
+    display: none;
+    padding-top: 15px;
+}
+
+    
+    /* Container */ 
+    
+    .patron-profile{
+        background-attachment: blue;
+    }
+    
+    .patron-note{
+        margin-right: 40px;
+        margin-left: 15px;
+    }
+    
+    .patron-image{
+        z-index: 1;
+        padding-left: 45px;
+        padding-top: 30px;
+    }
+
+    
+    img{
+        width: 300px;
+    }
+    
+    .patron-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 12px;
+    }
+    
+    .patron-profile h1{
+        color: wheat;
+        padding-left: 30px;
+        font-size: 40px;
+        padding-bottom:8px;
+        margin-top: 120px;
+    }
+    
+    .patron-note h2{
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .patron-note p{
+        color: wheat;
+        padding-top: 25px;
+        line-height: 27px;
+        margin-right: -50px;
+    }
+    
+    
+    hr{
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 2px;
+    }
+    
+    
+    
+    
+    /* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    display: none;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+}
+
+.footer .trio{
+    display: none;
+}
+
+.copyright{
+    padding-left: 130px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:360px) {
+    
+    /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 65px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.logo img{
+    width: 50px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 60px;
+    background-color: white;
+    width: 414px;
+    height: 790px;
+    line-height: 30px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 75px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 15px;
+    width: 50px;
+    display: block;
+}
+
+.cancel{
+    width: 35px;
+    display: none;
+    padding-top: 10px;
+}
+    
+    
+/* Container */ 
+    
+    .patron-profile{
+        background-attachment: blue;
+        margin-top: 0px;
+    }
+    
+    .patron-note{
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    
+    .patron-image{
+        z-index: 1;
+        padding-left: 40px;
+        padding-top: 30px;
+        width: 380px;
+    
+    }
+    
+    img{
+        width: 280px;
+    }
+    
+    .patron-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 0px;
+    }
+    
+    .patron-profile h1{
+        color: wheat;
+        padding-left: 20px;
+        font-size: 30px;
+        padding-bottom:8px;
+        margin-top: 120px;
+    }
+    
+    .patron-note h2{
+        color: white;
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .patron-note p{
+        color: wheat;
+        padding-top: 25px;
+        line-height: 27px;
+        margin-right: -10px;
+    }
+    
+    
+    hr{
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 2px;
+    }
+    
+    
+    
+    
+    /* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 40px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    display: none;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+}
+
+.footer .trio{
+    display: none;
+}
+
+.copyright{
+    padding-left: 120px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:344px) {
+
+   /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 60px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.logo img{
+    width: 45px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 60px;
+    background-color: white;
+    width: 414px;
+    height: 790px;
+    line-height: 30px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 95px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 18px;
+    width: 40px;
+    display: block;
+}
+
+.cancel{
+    width: 30px;
+    display: none;
+    padding-top: 15px;
+}
+ 
+    
+/* Container */ 
+    
+    .patron-profile{
+        background-attachment: blue;
+    }
+    
+    .patron-note{
+        margin-right: 20px;
+        margin-left: 15px;
+    }
+    
+    .patron-image{
+        z-index: 1;
+        padding-left: 35px;
+        padding-top: 30px;
+        width: 380px;
+    
+    }
+    
+    img{
+        width: 280px;
+    }
+    
+    .patron-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 12px;
+    }
+    
+    .patron-profile h1{
+        color: wheat;
+        padding-left: 10px;
+        font-size: 30px;
+        padding-bottom:8px;
+        margin-top: 120px;
+    }
+    
+    .patron-note h2{
+        color: white;
+        padding-top: 10px;
+        font-size: 20px;
+        margin-left: 0px;
+        
+    }
+    
+    .patron-note p{
+        color: wheat;
+        padding-top: 25px;
+        line-height: 27px;
+        margin-right: 10px;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    
+    
+    hr{
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 2px;
+    }
+    
+    
+    
+    
+    /* Footer */
+    
+    
+    .footer{
+        background-color:white;
+        height:30px;
+        overflow: hidden;
+        padding-bottom: 0px;
+        margin-top: 30px;
+        border-radius: 0px;
+        color: black;
+        position: relative;
+    }
+    
+    .footer a{
+        color: black;
+        text-decoration: none;
+        margin-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .footer a:hover{
+        color: maroon;
+        padding-right: 20px;
+    }
+    
+    .footer .uno{
+        display: inline-block;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: -20px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    
+    .footer .duos{
+        padding-left: 10px;
+        display: block;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-right: 30px;
+    }
+    
+    .footer .trio{
+        display: block;
+        margin-left: 0px;
+        margin-top: 0px; 
+        display: block;
+        position: absolute;
+        right: 5px;
+        top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .copyright{
+        padding-left: 120px;
+        padding-bottom: -200px;
+        color: goldenrod !important;
+        margin-top: -50px;
+    }
+    
+    .footer hr{
+        display: none;
+    }
+}

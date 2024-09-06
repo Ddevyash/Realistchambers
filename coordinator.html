@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/coordinator.css">
+    <link rel="stylesheet" href="./Responsiveness/coordinator-Responsivess.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+
+
+    <div class="background">
+        <img src="./Image/Realiste-Logo.PNG" alt="">
+    </div>
+
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="./Image/ABU Logo.jpg" alt="">
+            <img src="./Image/Realiste-Logo.PNG" alt="">
+        </div>
+
+
+        <div class="menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li> <hr>
+                <li><a href="./court-rules.html">Court Rules</a></li> <hr>
+                <li><a href="./law-article.html">Past Qs</a></li><hr>
+                <li><a href="./statutes.html">Statutes</a></li><hr>
+                <li><a href="./history.html">History of the Chambers</a></li><hr>
+                <li><a href="./coordinator.html" class="home">Coordinator's Profile</a></li><hr>
+                <li><a href="./patron.html">Grand Patron's Profile</a></li><hr>
+                <li><a href="principal.html">Principal Partners</a></li><hr>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class="toggle">
+            <img src="./Image/hamburger.jpg" alt="" class="hamburger">
+            <img src="./Image/cancel.jpeg" alt="" class="cancel" >
+        </div>
+    </div>
+
+
+    <div class="coordinator-content">
+
+        <h1>Biography of Dr. Dalhat Idris, Esq (Coordinator)</h1>
+
+        <div class="cor-content">
+
+            <div class="cor-note">
+                <p>  Dr. Dalhat Idris, Esq. was born and raised in Kaduna, a city known for its rich history and cultural diversity in Nigeria. His early education began at LEA Primary School in Unguwan Sanusi, setting a solid foundation for his academic journey. He then proceeded to Government College Kaduna, where his passion for law and justice began to take shape. This passion led him to Ahmadu Bello University (ABU) Zaria, where he earned his LL.B degree, marking the beginning of his distinguished legal career.
+
+                    Dr. Idris's academic prowess did not stop at his undergraduate studies. He pursued further education at the same esteemed institution, obtaining his LLM (Master of Laws) and subsequently his Ph.D. in Public Law. His academic achievements are a testament to his dedication and commitment to the field of law.
+                    
+                    Currently, Dr. Idris is an Associate Professor of Law, specializing in Legal Pluralism, a field that explores the coexistence of multiple legal systems within a given society. His expertise and contributions have been recognized through his appointment as the Head of the Department of Islamic Law at ABU Zaria. Additionally, he serves as the Deputy Dean of the School of Postgraduate Studies at the same university, where he plays a crucial role in shaping the future of postgraduate legal education.
+                    
+                    Dr. Idris's scholarly work is impressive, with 25 journal publications and 16 conference papers presented at both local and international levels. His research and presentations have significantly contributed to the discourse in his field, reflecting his deep understanding and innovative thinking.
+                    
+                    Beyond his academic and professional accomplishments, Dr. Idris is a family man. He is happily married and a proud father, balancing his demanding career with his personal life. His story is one of dedication, hard work, and a relentless pursuit of excellence in both his professional and personal endeavors.
+                </p>
+            </div>
+
+
+            <div class="cor-photo">
+                <img src="./Image/Coordinator picture.jpg" alt="">
+            </div>
+            
+        </div>
+
+
+
+
+    </div>
+
+
+    <!-- Footer -->
+
+    <div class="footer">
+
+        <div class="uno">
+            <p><hr><a href="">Home</a> <hr></p>
+            <p><a href="">Past Qs</a></p> <hr>
+        </div>
+
+        <div class="duos">
+            <p><a href=""><hr>Coordinator's Profile</a> <hr></p>
+            <p><a href="">Statutes</a><hr></p>
+            <p><a href="">History of the Chambers</a></p> <hr>
+        </div>
+
+        <div class="trio">
+            <p> <hr><a href="">Grand Patron's Profile</a></p> <hr>
+            <p><a href="">Past Principal Partners</a></p> <hr>
+            <p><a href="">Contact</a></p> <hr>
+            <p><a href="">Court Rules</a></p> <hr>
+        </div>
+
+
+        <p class="copyright">©Realist chambers</p>
+
+        
+    </div>
+
+
+
+    <script>
+    let toggle = document.querySelector('.hamburger');
+    toggle.addEventListener('click', function(){
+    document.querySelector('.menu ul').style.display='block';
+    document.querySelector('.cancel').style.display='block';
+    this.style.display='none';
+
+    })
+
+    let cancel = document.querySelector('.cancel');
+    cancel.addEventListener('click', function(){
+    document.querySelector('.menu ul').style.display='none';
+    document.querySelector('.hamburger').style.display='block';
+    this.style.display='none';
+    })
+
+    </script>
+
+
+</body>
+</html>

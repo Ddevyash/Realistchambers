@@ -1,0 +1,303 @@
+/* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+    background-image: url(../Image/red\ and\ black\ wallpaper.jpeg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: -1;
+}
+
+.nav-bar{
+    margin-top: 10px;
+    height: 120px;
+    display: flex;
+}
+
+.logo{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.menu a{
+    color: rgb(186, 186, 186);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 24px;
+}
+
+.toggle{
+    display: none;
+}
+
+hr{
+    display: none;
+}
+
+
+
+/* Container */
+
+.law-content{
+    display: grid;
+    grid-template-columns: 2.3fr 1fr;
+    height: 5200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    column-gap: 10px;
+}
+
+.content{
+    padding-right: 10px;
+    padding-left: 50px;
+    padding-top: 0px;
+    z-index: 1;
+}
+
+.content img{
+    width: 700px;
+    padding-top: 25px;
+}
+
+.content h1{
+    color: goldenrod;
+    background-color: maroon;
+    width: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.content p{
+    padding-top: 20px;
+    color: white;
+}
+
+.content a{
+    cursor: pointer;
+    margin-left: 230px;
+}
+
+.heading{
+    font-size: 40px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.heading span{
+    color: white !important;
+}
+
+.content button{
+    margin-top: 13px;
+    margin-bottom: 30px;
+    padding: 5px 4px 5px 4px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 200px;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+.search{
+    background-color: rgb(124, 19, 19);
+    border-left-color:red ;
+    margin-top: 0px;
+    height: 3500px;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.search h2{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.search input{
+    margin-left: 40px;
+    padding: 7px 90px 7px 0px;
+    outline: none;
+    margin-bottom: 10px;
+    width: 190px;
+}
+
+.search textarea{
+    margin-left: 40px;
+    height: 200px;
+    width: 280px;
+    outline: none;
+}
+
+label{
+    color: white;
+    margin-left: 40px;
+}
+
+.search button{
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 4px 4px 4px 4px;
+    width: 280px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+
+.more-law-content{
+    background-color: black;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 490px;
+    border-radius: 20px;
+    
+}
+
+.more{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 40px;
+    padding-right: 40px;
+    column-gap: 40px;
+
+}
+
+.more-law-content h1{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white;
+}
+
+.more-law-content p{
+    color:white;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.more-law-content a{
+    color: wheat;
+}
+
+.more div{
+    height: 350px;
+    color: white;
+    border-radius: 30px;
+}
+
+.more img{
+    width: 300px;
+    height: 250px;
+    padding-left: 27px;
+    padding-top: 20px;
+}
+
+.more h3{
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.more a:hover{
+    opacity: 0.6;
+}
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    height: 160px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: maroon;
+}
+
+.footer .uno{
+    display: flex;
+    margin-left: 570px;
+    margin-top: 20px;
+}
+
+.footer .duos{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.footer .trio{
+    display: flex;
+    margin-left: 415px;
+    margin-top: 10px; 
+}
+
+.copyright{
+    padding-left: 580px;
+    padding-top: 40px;
+    color: grey !important;
+}
+
+

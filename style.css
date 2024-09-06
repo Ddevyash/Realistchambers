@@ -1,0 +1,532 @@
+
+/* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+    background-image: url(./Image/red\ and\ black\ wallpaper.jpeg);
+    font-family: 'roboto', 'inter';
+}
+
+
+.roboto-regular {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.nav-bar{
+    margin-top: 10px;
+    height: 120px;
+    display: flex;
+}
+
+.logo{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+hr{
+    display: none;
+}
+
+.menu a{
+    color: rgb(186, 186, 186);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 20px;
+}
+
+.hamburger{
+    width: 100px;
+    display: none;
+}
+
+.cancel{
+    width: 100px;
+    display: none;
+}
+
+
+
+/* Container */
+
+.container{
+
+}
+
+.heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.heading h1{
+    color: white;
+    font-size: 50px;
+    margin-top: -12px;
+}
+
+.heading img{
+    width: 40px;
+}
+
+.heading h3{
+    color: white;
+    padding-left: 100px;
+    font-size: 25px;
+}
+
+.note p{
+    color: white !important;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+
+
+p{
+    color: white !important;
+}
+
+pre{
+    color: white;
+    padding-left: 0px;
+    margin-left: -10px;
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 38px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+.note br{
+    display: none;
+}
+
+
+.black-content{
+    height: 470px;
+    z-index: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin-top: 0px;
+}
+
+.black-content .note{
+    background-color:black;
+    margin-left: 20px;
+    color: maroon;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 10px;
+    line-height: 95px;
+}
+
+.realist{
+    font-size: 17px !important;
+}
+
+.note{
+    position: relative;
+}
+
+.note h5{
+    line-height: 40px;
+}
+
+.note span{
+    color: goldenrod ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.note span br{
+    display: block;
+}
+
+.note img{
+    width: 55px;
+    padding-left: 70px;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+
+}
+
+.photo{
+    padding-left: 36px;
+    background-color: wheat;
+    padding-top: 20px;
+    height: 300px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.photo img{
+    width: 320px;
+    padding-top: 0px;
+    height: 280px;  
+}
+
+
+.note h1{
+    color: goldenrod;
+}
+
+
+/* Third content */
+
+.third-content{
+    color: black;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 700px;
+    margin-top: 20px;
+    z-index: -2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.third-content h1{
+    color: goldenrod;
+    font-size: 50px;
+    padding-bottom: 20px;
+    display: block;
+
+}
+
+.third-content h2{
+    color:  white;
+    padding-bottom: 5px;
+
+}
+
+.third-content h3{
+    color: white;
+    text-decoration: underline;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    
+}
+
+.third-content p{
+    color:white !important;
+    line-height: 25px;
+    padding-right: 20px;
+}
+
+.offering{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.offering-note span{
+    color: rgb(221, 52, 52);
+}
+
+.offering-contact{
+    padding-top: 0px;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 50px;
+    box-shadow: 0 8px 8px rgba(255, 248, 248, 0.5);
+    
+
+
+}
+
+.offering-contact p{
+    color: black !important;
+    padding-top: 20px;
+}
+
+.offering input{
+    width: 270px;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+    outline: none;
+}
+
+.offering textarea{
+    width: 270px;
+    outline: none;
+}
+
+.offering button{
+    width: 270px;
+    padding: 10px 0px;
+    margin-top: 10px;
+    color: white;
+    background-color:green;
+    border: none;
+}
+
+
+/* Fourth-content */
+
+
+.fourth-content{
+    color: white;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 780px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    background-color: transparent;
+    
+
+}
+
+
+.testimonials h1{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.testimony{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    
+}
+
+.testimony br{
+    display: block;
+}
+
+
+.first-T span{
+    color: wheat !important;
+}
+
+.second-T span{
+    color: wheat;
+}
+
+.third-T span{
+    color: wheat;
+}
+
+.testimony img{
+    width: 200px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+.testimony h4{
+
+}
+
+.testimony p{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.testimony div{
+    height: 645px;
+    border: 1px solid rgb(161, 81, 81);
+    border-radius: 50px;
+    background-color: black;
+    width: 330px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.post-testimony{
+    margin-bottom: 60px;
+}
+
+
+
+
+
+/* last content */
+
+.about{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 420px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -40px;
+}
+
+.mission{
+    padding-top: 20px;
+    margin-top: 0px !important;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+    color: wheat!important;
+
+}
+
+.about h1{
+    padding-top: 20px;
+    color: rgb(202, 23, 23);
+}
+
+.about p{
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.about-us{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.about-us img{
+    width: 200px;
+    border-radius: 100px;
+    padding-top: -100px;
+    margin-left: 30px;
+}
+
+.socials{
+    padding-left: 60px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+.socials div{
+    width: 50px;
+    display: block;
+    padding-top: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.socials img{
+    width: 25px;
+}
+
+.socials p br{
+    display: none;
+}
+
+.socials a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    height: 160px;
+    margin-top: 120px;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: maroon;
+}
+
+.footer .uno{
+    display: flex;
+    margin-left: 570px;
+    margin-top: 20px;
+}
+
+.footer .duos{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.footer .trio{
+    display: flex;
+    margin-left: 415px;
+    margin-top: 10px; 
+}
+
+.copyright{
+    padding-left: 580px;
+    padding-top: 40px;
+    color: grey !important;
+}
+
+
+
+
+
+
+
+

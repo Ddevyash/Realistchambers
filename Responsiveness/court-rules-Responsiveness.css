@@ -1,0 +1,4656 @@
+
+
+/* ipad pro */
+
+@media screen and (max-width:1024px) {
+   /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 120px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 1024px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 19px;
+}
+
+.logo img{
+    width: 80px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 30px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 95px;
+    background-color: white;
+    width:1024px;
+    height: 890px;
+    line-height: 55px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 30px;
+}
+
+.toggle{
+    position: absolute;
+    right: 50px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 33px;
+    width: 75px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 30px;
+}
+    
+    
+    
+    /* Container */
+    
+    .heading{
+        padding-left: 40px;
+        margin-top: 125px;
+    }
+    
+    .heading h1{
+        color: wheat;
+        padding-bottom: 10px;
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    
+    
+    .heading span{
+        padding-left: 60px;
+    }
+    
+    .heading p{
+        line-height: 28px;
+        padding-right: 40px;
+        padding-bottom: 25px;
+        color: white;
+    }
+    
+    .heading span{
+        display: none;
+    }
+    
+    .heading button{
+        background-color: rgb(238, 231, 211);
+        color: black;
+        padding: 2px 5px;
+        font-size: 14px;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+        margin-left: 0px;
+    }
+    
+    .more{
+        padding-left: 0px;
+        margin-left: -70px;
+        padding-top: 10px;
+    }
+    
+    .heading .read:hover{
+        background-color: maroon;
+        color: white;
+        transition: 0.7s;
+        opacity: 0.8;
+    }
+    
+    .rules{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0px;
+        margin-right: 10px;
+        padding-left: 10px;
+        row-gap: 20px;
+        column-gap: 30px;
+    }
+    
+    .rules div{
+        height: 490px;
+        background-color: black;
+        border-radius: 20px;
+        padding: 10px 10px;
+        border: 3px solid black;
+    }
+    
+    .rules a{
+        text-decoration: none;
+    }
+    
+    .rules a:hover{
+        opacity: 0.7;
+        background-color: black;
+        color: goldenrod;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+    
+    .rules p{
+        color: white;
+        line-height: 22px;
+    }
+    
+    .rules h2{
+        color: goldenrod;
+        padding-bottom: 20px;
+    }
+    
+    .one{
+        background-color: blue;
+    }
+    
+    .one h2{
+        color: maroon;
+        text-decoration: none;
+    }
+    
+    .two{
+        background-color: maroon !important;
+    }
+    
+    .two p{
+        color: white;
+    }
+    
+    .two h2{
+        color: goldenrod;
+    }
+    
+    .three{
+        background-color: maroon !important;
+    }
+    
+    .three h2{
+        color: black;
+    }
+    
+    .four{
+        background-color: goldenrod !important;
+    }
+    
+    .four h2{
+        color: white;
+    }
+    
+    .four p{
+        color: black;
+    }
+    
+    .five{
+        background-color: burlywood;
+    }
+    
+    .socials{
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 150px;
+        overflow: hidden;
+    }
+    
+    .socials br{
+        display: none;
+    }
+    
+    .socials p{
+        padding-top: 5px;;
+        padding-left: 10px;
+        color: white;
+        padding-bottom: 5px;
+    }
+    
+    .socials img{
+        width: 15px;
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+    
+    .socials a{
+        color: white;
+        text-decoration: none;
+        padding-right: 0px;
+        padding-left: 3px;
+        line-height: 30px;
+        margin-left: 5px;
+        margin-right: 2px;
+    }
+    
+    .socials span{
+        color: wheat;
+        padding: 0px 10px 5px 10px;
+        background-color: transparent;
+        padding-bottom: 30px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        
+    }
+    
+    .socials a:hover{
+        opacity: 0.6;
+    }
+    
+    /* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 440px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* surface pro 7 */
+
+@media screen and (max-width:912px) {
+
+     /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 105px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 1024px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.logo img{
+    width: 80px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 25px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 95px;
+    background-color: white;
+    width:1024px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 30px;
+}
+
+.toggle{
+    position: absolute;
+    right: 150px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 33px;
+    width: 75px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 30px;
+}
+    
+    
+    
+    /* Container */
+    
+    .heading{
+        padding-left: 40px;
+        margin-top: 125px;
+    }
+    
+    .heading h1{
+        color: wheat;
+        padding-bottom: 10px;
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    
+    
+    .heading span{
+        padding-left: 60px;
+    }
+    
+    .heading p{
+        line-height: 28px;
+        padding-right: 40px;
+        padding-bottom: 25px;
+        color: white;
+    }
+    
+    .heading span{
+        display: none;
+    }
+    
+    .heading button{
+        background-color: rgb(238, 231, 211);
+        color: black;
+        padding: 2px 5px;
+        font-size: 14px;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+        margin-left: 0px;
+    }
+    
+    .more{
+        padding-left: 0px;
+        margin-left: -70px;
+        padding-top: 10px;
+    }
+    
+    .heading .read:hover{
+        background-color: maroon;
+        color: white;
+        transition: 0.7s;
+        opacity: 0.8;
+    }
+    
+    .rules{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0px;
+        margin-right: 10px;
+        padding-left: 10px;
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+    
+    .rules div{
+        height: 490px;
+        background-color: black;
+        border-radius: 20px;
+        padding: 10px 10px;
+        border: 3px solid black;
+    }
+    
+    .rules a{
+        text-decoration: none;
+    }
+    
+    .rules a:hover{
+        opacity: 0.7;
+        background-color: black;
+        color: goldenrod;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+    
+    .rules p{
+        color: white;
+        line-height: 22px;
+    }
+    
+    .rules h2{
+        color: goldenrod;
+        padding-bottom: 20px;
+    }
+    
+    .one{
+        background-color: blue;
+    }
+    
+    .one h2{
+        color: maroon;
+        text-decoration: none;
+    }
+    
+    .two{
+        background-color: maroon !important;
+    }
+    
+    .two p{
+        color: white;
+    }
+    
+    .two h2{
+        color: goldenrod;
+    }
+    
+    .three{
+        background-color: maroon !important;
+    }
+    
+    .three h2{
+        color: black;
+    }
+    
+    .four{
+        background-color: goldenrod !important;
+    }
+    
+    .four h2{
+        color: white;
+    }
+    
+    .four p{
+        color: black;
+    }
+    
+    .five{
+        background-color: burlywood;
+    }
+    
+    .socials{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 150px;
+        overflow: hidden;
+    }
+    
+    .socials br{
+        display: none;
+    }
+    
+    .socials p{
+        padding-top: 5px;;
+        padding-left: 10px;
+        color: white;
+        padding-bottom: 5px;
+    }
+    
+    .socials img{
+        width: 15px;
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+    
+    .socials a{
+        color: white;
+        text-decoration: none;
+        padding-right: 0px;
+        padding-left: 3px;
+        line-height: 30px;
+        margin-left: 5px;
+        margin-right: 2px;
+    }
+    
+    .socials span{
+        color: wheat;
+        padding: 0px 10px 5px 10px;
+        background-color: transparent;
+        padding-bottom: 30px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        
+    }
+    
+    .socials a:hover{
+        opacity: 0.6;
+    }
+    
+    
+     /* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 380px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:852px){
+
+    /* Navigation Bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 90px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 852px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width:852px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 40px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 25px;
+    width: 60px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 15px;
+}
+
+ /* Footer */
+
+ .footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 360px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ipad air */
+
+@media screen and (max-width:820px) {
+
+   /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 820px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width:820px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 40px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 25px;
+    width: 60px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 15px;
+}
+    
+    
+    
+    /* Container */
+    
+    .heading{
+        padding-left: 40px;
+        margin-top: 125px;
+    }
+    
+    .heading h1{
+        color: wheat;
+        padding-bottom: 10px;
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    
+    
+    .heading span{
+        padding-left: 60px;
+    }
+    
+    .heading p{
+        line-height: 28px;
+        padding-right: 40px;
+        padding-bottom: 25px;
+        color: white;
+    }
+    
+    .heading span{
+        display: none;
+    }
+    
+    .heading button{
+        background-color: rgb(238, 231, 211);
+        color: black;
+        padding: 2px 5px;
+        font-size: 14px;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+        margin-left: 0px;
+    }
+    
+    .more{
+        padding-left: 0px;
+        margin-left: -70px;
+        padding-top: 10px;
+    }
+    
+    .heading .read:hover{
+        background-color: maroon;
+        color: white;
+        transition: 0.7s;
+        opacity: 0.8;
+    }
+    
+    .rules{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0px;
+        margin-right: 10px;
+        padding-left: 10px;
+        row-gap: 20px;
+        column-gap: 40px;
+    }
+    
+    .rules div{
+        height: 490px;
+        background-color: black;
+        border-radius: 20px;
+        padding: 10px 10px;
+        border: 3px solid black;
+    }
+    
+    .rules a{
+        text-decoration: none;
+    }
+    
+    .rules a:hover{
+        opacity: 0.7;
+        background-color: black;
+        color: goldenrod;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+    
+    .rules p{
+        color: white;
+        line-height: 22px;
+    }
+    
+    .rules h2{
+        color: goldenrod;
+        padding-bottom: 20px;
+    }
+    
+    .one{
+        background-color: blue;
+    }
+    
+    .one h2{
+        color: maroon;
+        text-decoration: none;
+    }
+    
+    .two{
+        background-color: maroon !important;
+    }
+    
+    .two p{
+        color: white;
+    }
+    
+    .two h2{
+        color: goldenrod;
+    }
+    
+    .three{
+        background-color: maroon !important;
+    }
+    
+    .three h2{
+        color: black;
+    }
+    
+    .four{
+        background-color: goldenrod !important;
+    }
+    
+    .four h2{
+        color: white;
+    }
+    
+    .four p{
+        color: black;
+    }
+    
+    .five{
+        background-color: burlywood;
+    }
+    
+    .socials{
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 150px;
+        overflow: hidden;
+    }
+    
+    .socials br{
+        display: none;
+    }
+    
+    .socials p{
+        padding-top: 5px;;
+        padding-left: 10px;
+        color: white;
+        padding-bottom: 5px;
+    }
+    
+    .socials img{
+        width: 15px;
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+    
+    .socials a{
+        color: white;
+        text-decoration: none;
+        padding-right: 0px;
+        padding-left: 3px;
+        line-height: 30px;
+        margin-left: 5px;
+        margin-right: 2px;
+    }
+    
+    .socials span{
+        color: wheat;
+        padding: 0px 10px 5px 10px;
+        background-color: transparent;
+        padding-bottom: 30px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        
+    }
+    
+    .socials a:hover{
+        opacity: 0.6;
+    }
+    
+    
+    /* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 320px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ipad Mini */
+
+@media screen and (max-width:768px) {
+    
+     /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 90px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 770px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 60px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 770px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 25px;
+    width: 60px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 15px;
+}
+    
+    
+    
+    /* Container */
+    
+    .heading{
+        padding-left: 40px;
+        margin-top: 125px;
+    }
+    
+    .heading h1{
+        color: wheat;
+        padding-bottom: 10px;
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    
+    
+    .heading span{
+        padding-left: 60px;
+    }
+    
+    .heading p{
+        line-height: 28px;
+        padding-right: 40px;
+        padding-bottom: 25px;
+        color: white;
+    }
+    
+    .heading span{
+        display: none;
+    }
+    
+    .heading button{
+        background-color: rgb(238, 231, 211);
+        color: black;
+        padding: 2px 5px;
+        font-size: 14px;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+        margin-left: 0px;
+    }
+    
+    .more{
+        padding-left: 0px;
+        margin-left: -70px;
+        padding-top: 10px;
+    }
+    
+    .heading .read:hover{
+        background-color: maroon;
+        color: white;
+        transition: 0.7s;
+        opacity: 0.8;
+    }
+    
+    .rules{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        margin-right: 10px;
+        padding-left: 10px;
+        row-gap: 20px;
+        column-gap: 40px;
+    }
+    
+    .rules div{
+        height: 410px;
+        background-color: black;
+        border-radius: 20px;
+        padding: 10px 10px;
+        border: 3px solid black;
+    }
+    
+    .rules a{
+        text-decoration: none;
+    }
+    
+    .rules a:hover{
+        opacity: 0.7;
+        background-color: black;
+        color: goldenrod;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+    
+    .rules p{
+        color: white;
+        line-height: 22px;
+    }
+    
+    .rules h2{
+        color: goldenrod;
+        padding-bottom: 20px;
+    }
+    
+    .one{
+        background-color: blue;
+    }
+    
+    .one h2{
+        color: maroon;
+        text-decoration: none;
+    }
+    
+    .two{
+        background-color: maroon !important;
+    }
+    
+    .two p{
+        color: white;
+    }
+    
+    .two h2{
+        color: goldenrod;
+    }
+    
+    .three{
+        background-color: maroon !important;
+    }
+    
+    .three h2{
+        color: black;
+    }
+    
+    .four{
+        background-color: goldenrod !important;
+    }
+    
+    .four h2{
+        color: white;
+    }
+    
+    .four p{
+        color: black;
+    }
+    
+    .five{
+        background-color: burlywood;
+    }
+    
+    .socials{
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 150px;
+        overflow: hidden;
+    }
+    
+    .socials br{
+        display: block;
+    }
+    
+    .socials p{
+        padding-top: 5px;;
+        padding-left: 10px;
+        color: white;
+        padding-bottom: 5px;
+    }
+    
+    .socials img{
+        width: 15px;
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+    
+    .socials a{
+        color: white;
+        text-decoration: none;
+        padding-right: 0px;
+        padding-left: 3px;
+        line-height: 30px;
+        margin-left: 5px;
+        margin-right: 2px;
+    }
+    
+    .socials span{
+        color: wheat;
+        padding: 0px 10px 5px 10px;
+        background-color: transparent;
+        padding-bottom: 30px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        
+    }
+    
+    .socials a:hover{
+        opacity: 0.6;
+    }
+    
+    
+      /* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 320px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Surface Duo */
+
+@media screen and (max-width:540px) {
+
+     /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 85px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 540px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 60px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 20px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 540px;
+    height: 1290px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 20px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 24px;
+    width: 55px;
+    display: block;
+}
+
+.cancel{
+    width: 40px;
+    display: none;
+    padding-top: 16px;
+}
+
+
+
+/* Container */
+
+.heading{
+    padding-left: 40px;
+    margin-top: 125px;
+}
+
+.heading h1{
+    color: wheat;
+    padding-bottom: 10px;
+    font-size: 35px;
+    padding-left: 0px;
+}
+
+
+.heading span{
+    padding-left: 60px;
+}
+
+.heading p{
+    line-height: 28px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.heading span{
+    display: none;
+}
+
+.heading button{
+    background-color: rgb(238, 231, 211);
+    color: black;
+    padding: 2px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.more{
+    padding-left: 0px;
+    margin-left: -70px;
+    padding-top: 10px;
+}
+
+.heading .read:hover{
+    background-color: maroon;
+    color: white;
+    transition: 0.7s;
+    opacity: 0.8;
+}
+
+.rules{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 10px;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.rules div{
+    height: 400px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: 3px solid black;
+}
+
+.rules a{
+    text-decoration: none;
+}
+
+.rules a:hover{
+    opacity: 0.7;
+    background-color: black;
+    color: goldenrod;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.rules p{
+    color: white;
+    line-height: 22px;
+}
+
+.rules h2{
+    color: goldenrod;
+    padding-bottom: 20px;
+}
+
+.one{
+    background-color: blue;
+}
+
+.one h2{
+    color: maroon;
+    text-decoration: none;
+}
+
+.two{
+    background-color: maroon !important;
+}
+
+.two p{
+    color: white;
+}
+
+.two h2{
+    color: goldenrod;
+}
+
+.three{
+    background-color: maroon !important;
+}
+
+.three h2{
+    color: black;
+}
+
+.four{
+    background-color: goldenrod !important;
+}
+
+.four h2{
+    color: white;
+}
+
+.four p{
+    color: black;
+}
+
+.five{
+    background-color: burlywood;
+}
+
+.socials{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.socials br{
+    display: block;
+}
+
+.socials p{
+    padding-top: 5px;;
+    padding-left: 10px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.socials img{
+    width: 15px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.socials a{
+    color: white;
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left: 3px;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+.socials span{
+    color: wheat;
+    padding: 0px 10px 5px 10px;
+    background-color: transparent;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    
+}
+
+.socials a:hover{
+    opacity: 0.6;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 220px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iphone 14pro max */
+
+@media screen and (max-width:430px) {
+
+   /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 75px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 430px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 55px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 430px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 20px;
+    width: 55px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 10px;
+}
+
+/* Container */
+
+.heading{
+    padding-left: 40px;
+    margin-top: 125px;
+}
+
+.heading h1{
+    color: wheat;
+    padding-bottom: 10px;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+
+.heading span{
+    padding-left: 60px;
+}
+
+.heading p{
+    line-height: 28px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.heading span{
+    display: none;
+}
+
+.heading button{
+    background-color: rgb(238, 231, 211);
+    color: black;
+    padding: 2px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.more{
+    padding-left: 0px;
+    margin-left: -70px;
+    padding-top: 10px;
+}
+
+.heading .read:hover{
+    background-color: maroon;
+    color: white;
+    transition: 0.7s;
+    opacity: 0.8;
+}
+
+.rules{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 10px;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.rules div{
+    height: 470px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: 3px solid black;
+}
+
+.rules a{
+    text-decoration: none;
+}
+
+.rules a:hover{
+    opacity: 0.7;
+    background-color: black;
+    color: goldenrod;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.rules p{
+    color: white;
+    line-height: 22px;
+}
+
+.rules h2{
+    color: goldenrod;
+    padding-bottom: 20px;
+}
+
+.one{
+    background-color: blue;
+}
+
+.one h2{
+    color: maroon;
+    text-decoration: none;
+}
+
+.two{
+    background-color: maroon !important;
+}
+
+.two p{
+    color: white;
+}
+
+.two h2{
+    color: goldenrod;
+}
+
+.three{
+    background-color: maroon !important;
+}
+
+.three h2{
+    color: black;
+}
+
+.four{
+    background-color: goldenrod !important;
+}
+
+.four h2{
+    color: white;
+}
+
+.four p{
+    color: black;
+}
+
+.five{
+    background-color: burlywood;
+}
+
+.socials{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.socials br{
+    display: block;
+}
+
+.socials p{
+    padding-top: 5px;;
+    padding-left: 10px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.socials img{
+    width: 15px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.socials a{
+    color: white;
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left: 3px;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+.socials span{
+    color: wheat;
+    padding: 0px 10px 5px 10px;
+    background-color: transparent;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    
+}
+
+.socials a:hover{
+    opacity: 0.6;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 50px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:414px) {
+
+  /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 75px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 55px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 414px;
+    height: 790px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 20px;
+    width: 55px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 10px;
+}
+
+
+
+
+
+/* Container */
+
+.heading{
+    padding-left: 40px;
+    margin-top: 120px;
+}
+
+.heading h1{
+    color: wheat;
+    padding-bottom: 10px;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+
+.heading span{
+    padding-left: 60px;
+}
+
+.heading p{
+    line-height: 28px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.heading span{
+    display: none;
+}
+
+.heading button{
+    background-color: rgb(238, 231, 211);
+    color: black;
+    padding: 2px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.more{
+    padding-left: 0px;
+    margin-left: -70px;
+    padding-top: 10px;
+}
+
+.heading .read:hover{
+    background-color: maroon;
+    color: white;
+    transition: 0.7s;
+    opacity: 0.8;
+}
+
+.rules{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 10px;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.rules div{
+    height: 470px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: 3px solid black;
+}
+
+.rules a{
+    text-decoration: none;
+}
+
+.rules a:hover{
+    opacity: 0.7;
+    background-color: black;
+    color: goldenrod;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.rules p{
+    color: white;
+    line-height: 22px;
+}
+
+.rules h2{
+    color: goldenrod;
+    padding-bottom: 20px;
+}
+
+.one{
+    background-color: blue;
+}
+
+.one h2{
+    color: maroon;
+    text-decoration: none;
+}
+
+.two{
+    background-color: maroon !important;
+}
+
+.two p{
+    color: white;
+}
+
+.two h2{
+    color: goldenrod;
+}
+
+.three{
+    background-color: maroon !important;
+}
+
+.three h2{
+    color: black;
+}
+
+.four{
+    background-color: goldenrod !important;
+}
+
+.four h2{
+    color: white;
+}
+
+.four p{
+    color: black;
+}
+
+.five{
+    background-color: burlywood;
+}
+
+.socials{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.socials br{
+    display: block;
+}
+
+.socials p{
+    padding-top: 5px;;
+    padding-left: 10px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.socials img{
+    width: 15px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.socials a{
+    color: white;
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left: 3px;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+.socials span{
+    color: wheat;
+    padding: 0px 10px 5px 10px;
+    background-color: transparent;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    
+}
+
+.socials a:hover{
+    opacity: 0.6;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:412px) {
+
+    /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 75px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 55px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 414px;
+    height: 915px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 20px;
+    width: 55px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 10px;
+}
+
+
+/* Container */
+
+.heading{
+    padding-left: 40px;
+    margin-top: 120px;
+}
+
+.heading h1{
+    color: wheat;
+    padding-bottom: 10px;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+
+.heading span{
+    padding-left: 60px;
+}
+
+.heading p{
+    line-height: 28px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.heading span{
+    display: none;
+}
+
+.heading button{
+    background-color: rgb(238, 231, 211);
+    color: black;
+    padding: 2px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.more{
+    padding-left: 0px;
+    margin-left: -70px;
+    padding-top: 10px;
+}
+
+.heading .read:hover{
+    background-color: maroon;
+    color: white;
+    transition: 0.7s;
+    opacity: 0.8;
+}
+
+.rules{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 10px;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.rules div{
+    height: 470px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: 3px solid black;
+}
+
+.rules a{
+    text-decoration: none;
+}
+
+.rules a:hover{
+    opacity: 0.7;
+    background-color: black;
+    color: goldenrod;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.rules p{
+    color: white;
+    line-height: 22px;
+}
+
+.rules h2{
+    color: goldenrod;
+    padding-bottom: 20px;
+}
+
+.one{
+    background-color: blue;
+}
+
+.one h2{
+    color: maroon;
+    text-decoration: none;
+}
+
+.two{
+    background-color: maroon !important;
+}
+
+.two p{
+    color: white;
+}
+
+.two h2{
+    color: goldenrod;
+}
+
+.three{
+    background-color: maroon !important;
+}
+
+.three h2{
+    color: black;
+}
+
+.four{
+    background-color: goldenrod !important;
+}
+
+.four h2{
+    color: white;
+}
+
+.four p{
+    color: black;
+}
+
+.five{
+    background-color: burlywood;
+}
+
+.socials{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.socials br{
+    display: block;
+}
+
+.socials p{
+    padding-top: 5px;;
+    padding-left: 10px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.socials img{
+    width: 15px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.socials a{
+    color: white;
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left: 3px;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+.socials span{
+    color: wheat;
+    padding: 0px 10px 5px 10px;
+    background-color: transparent;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    
+}
+
+.socials a:hover{
+    opacity: 0.6;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+}
+
+.footer .trio{
+    display: none;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:390px) {
+      /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 70px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 55px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 414px;
+    height: 790px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 45px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 20px;
+    width: 50px;
+    display: block;
+}
+
+.cancel{
+    width: 40px;
+    display: none;
+    padding-top: 15px;
+}
+
+
+
+
+
+/* Container */
+
+.heading{
+    padding-left: 40px;
+    margin-top: 120px;
+}
+
+.heading h1{
+    color: wheat;
+    padding-bottom: 10px;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+
+.heading span{
+    padding-left: 60px;
+}
+
+.heading p{
+    line-height: 28px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.heading span{
+    display: none;
+}
+
+.heading button{
+    background-color: rgb(238, 231, 211);
+    color: black;
+    padding: 2px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.more{
+    padding-left: 0px;
+    margin-left: -70px;
+    padding-top: 10px;
+}
+
+.heading .read:hover{
+    background-color: maroon;
+    color: white;
+    transition: 0.7s;
+    opacity: 0.8;
+}
+
+.rules{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 10px;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.rules div{
+    height: 490px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: 3px solid black;
+}
+
+.rules a{
+    text-decoration: none;
+}
+
+.rules a:hover{
+    opacity: 0.7;
+    background-color: black;
+    color: goldenrod;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.rules p{
+    color: white;
+    line-height: 22px;
+}
+
+.rules h2{
+    color: goldenrod;
+    padding-bottom: 20px;
+}
+
+.one{
+    background-color: blue;
+}
+
+.one h2{
+    color: maroon;
+    text-decoration: none;
+}
+
+.two{
+    background-color: maroon !important;
+}
+
+.two p{
+    color: white;
+}
+
+.two h2{
+    color: goldenrod;
+}
+
+.three{
+    background-color: maroon !important;
+}
+
+.three h2{
+    color: black;
+}
+
+.four{
+    background-color: goldenrod !important;
+}
+
+.four h2{
+    color: white;
+}
+
+.four p{
+    color: black;
+}
+
+.five{
+    background-color: burlywood;
+}
+
+.socials{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.socials br{
+    display: block;
+}
+
+.socials p{
+    padding-top: 5px;;
+    padding-left: 10px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.socials img{
+    width: 15px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.socials a{
+    color: white;
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left: 3px;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+.socials span{
+    color: wheat;
+    padding: 0px 10px 5px 10px;
+    background-color: transparent;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    
+}
+
+.socials a:hover{
+    opacity: 0.6;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    display: none;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+}
+
+.footer .trio{
+    display: none;
+}
+
+.copyright{
+    padding-left: 130px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iphone SE */
+
+@media screen and (max-width:375px) {
+    
+    
+    /* Navigation Bar */
+
+
+*{
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden !important;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden !important;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+   margin-top: 0px;
+   height: 100px;
+   display: flex;
+   background-color: white;
+   position: fixed;
+   z-index: 1;
+   width: 414px;
+}
+
+.logo{
+   padding-left: 10px;
+   padding-top: 15px;
+}
+
+.logo img{
+   width: 60px;
+   border-radius: 60px;
+   margin-right: 5px;
+}
+
+.menu ul{
+   display: flex;
+   align-items: center;  
+   justify-content: center;
+   float:right;
+   padding-bottom: 20px;
+   margin-left: 80px;
+   font-size: 18px;
+   padding-top: 20px;
+   display: none;
+   position: fixed;
+   left: -80px;
+   top: 80px;
+   background-color: white;
+   width: 414px;
+   height: 390px;
+   line-height: 40px;
+}
+
+hr{
+   display: block;
+}
+
+.menu a{
+   color: black;
+   text-decoration: none;
+   margin-left: 15px;
+   
+}
+
+.menu a:hover{
+   color: white !important;
+}
+
+.background img{
+   position: absolute;
+   width: 850px;
+   border-radius: 480px;
+   top: 100px;
+   left: 210px;
+   opacity: 0.2;
+   z-index: -1;
+   display: none;
+}
+
+ul .home{
+   color: goldenrod !important;
+   font-size: 22px;
+}
+
+.toggle{
+   position: absolute;
+   right: 95px;
+   display: block;
+}
+
+.hamburger{
+   padding-top: 25px;
+   width: 60px;
+   display: block;
+}
+
+.cancel{
+   width: 50px;
+   display: none;
+   padding-top: 20px;
+}
+
+
+
+
+/* Container */
+
+.heading{
+   padding-left: 30px;
+   margin-top: 120px;
+}
+
+.heading h1{
+   color: wheat;
+   padding-bottom: 10px;
+   font-size: 35px;
+   padding-left: 0px;
+}
+
+
+.heading span{
+   padding-left: 60px;
+}
+
+.heading p{
+   line-height: 28px;
+   padding-right: 20px;
+   padding-bottom: 25px;
+   color: white;
+}
+
+.heading span{
+   display: none;
+}
+
+.heading button{
+   background-color: rgb(238, 231, 211);
+   color: black;
+   padding: 2px 5px;
+   font-size: 14px;
+   text-decoration: none;
+   border-radius: 5px;
+   cursor: pointer;
+   border: none;
+   font-weight: bold;
+   margin-left: 0px;
+}
+
+.more{
+   padding-left: 0px;
+   margin-left: -70px;
+   padding-top: 10px;
+}
+
+.heading .read:hover{
+   background-color: maroon;
+   color: white;
+   transition: 0.7s;
+   opacity: 0.8;
+}
+
+.rules{
+   margin-top: 20px;
+   display: grid;
+   grid-template-columns: 1fr;
+   margin-left: 0px;
+   margin-right: 10px;
+   padding-left: 10px;
+   row-gap: 20px;
+   column-gap: 40px;
+}
+
+.rules div{
+   height: 540px;
+   background-color: black;
+   border-radius: 20px;
+   padding: 10px 10px;
+   border: 3px solid black;
+}
+
+.rules a{
+   text-decoration: none;
+}
+
+.rules a:hover{
+   opacity: 0.7;
+   background-color: black;
+   color: goldenrod;
+   text-decoration: none;
+   border-radius: 20px;
+}
+
+.rules p{
+   color: white;
+   line-height: 22px;
+}
+
+.rules h2{
+   color: goldenrod;
+   padding-bottom: 20px;
+}
+
+.one{
+   background-color: blue;
+}
+
+.one h2{
+   color: maroon;
+   text-decoration: none;
+}
+
+.two{
+   background-color: maroon !important;
+}
+
+.two p{
+   color: white;
+}
+
+.two h2{
+   color: goldenrod;
+}
+
+.three{
+   background-color: maroon !important;
+}
+
+.three h2{
+   color: black;
+}
+
+.four{
+   background-color: goldenrod !important;
+}
+
+.four h2{
+   color: white;
+}
+
+.four p{
+   color: black;
+}
+
+.five{
+   background-color: burlywood;
+}
+
+.socials{
+   margin-left: 20px;
+   margin-right: 10px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   height: 150px;
+   overflow: hidden;
+}
+
+.socials br{
+   display: block;
+}
+
+.socials p{
+   padding-top: 5px;;
+   padding-left: 10px;
+   color: white;
+   padding-bottom: 5px;
+}
+
+.socials img{
+   width: 15px;
+   padding-top: 0px;
+   padding-left: 10px;
+}
+
+.socials a{
+   color: white;
+   text-decoration: none;
+   padding-right: 0px;
+   padding-left: 3px;
+   line-height: 30px;
+   margin-left: 5px;
+   margin-right: 2px;
+}
+
+.socials span{
+   color: wheat;
+   padding: 0px 10px 5px 10px;
+   background-color: transparent;
+   padding-bottom: 30px;
+   margin-bottom: 40px;
+   font-size: 20px;
+   
+}
+
+.socials a:hover{
+   opacity: 0.6;
+}
+
+
+/* Footer */
+
+.footer{
+   background-color:white;
+   height: 150px;
+   overflow: hidden;
+   padding-bottom: 0px;
+   margin-top: 30px;
+   border-radius: 0px;
+   color: black;
+   position: relative;
+}
+
+.footer a{
+   color: black;
+   text-decoration: none;
+   margin-bottom: 0px;
+   margin-bottom: 0px;
+}
+
+.footer a:hover{
+   color: maroon;
+   padding-right: 20px;
+}
+
+.footer .uno{
+   display: inline-block;
+   margin-left: 0px;
+   margin-top: 0px;
+   margin-bottom: -20px;
+   padding-left: 10px;
+   padding-top: 20px;
+}
+
+.footer .duos{
+   padding-left: 10px;
+   display: block;
+   margin-left: 0px;
+   margin-top: 0px;
+   padding-right: 30px;
+}
+
+.footer .trio{
+   display: block;
+   margin-left: 0px;
+   margin-top: 0px; 
+   display: block;
+   position: absolute;
+   right: 20px;
+   top: 20px;
+   padding-bottom: 40px;
+}
+
+.copyright{
+   padding-left: 120px;
+   padding-bottom: -200px;
+   color: goldenrod !important;
+   margin-top: -30px;
+}
+
+.footer hr{
+   display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:360px) {
+
+    /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 65px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.logo img{
+    width: 50px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 60px;
+    background-color: white;
+    width: 414px;
+    height: 790px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 75px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 15px;
+    width: 50px;
+    display: block;
+}
+
+.cancel{
+    width: 35px;
+    display: none;
+    padding-top: 10px;
+}
+
+
+
+/* Container */
+
+.heading{
+    padding-left: 30px;
+    margin-top: 120px;
+}
+
+.heading h1{
+    color: wheat;
+    padding-bottom: 10px;
+    font-size: 35px;
+    padding-left: 0px;
+}
+
+
+.heading span{
+    padding-left: 60px;
+}
+
+.heading p{
+    line-height: 28px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.heading span{
+    display: none;
+}
+
+.heading button{
+    background-color: rgb(238, 231, 211);
+    color: black;
+    padding: 2px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.more{
+    padding-left: 0px;
+    margin-left: -70px;
+    padding-top: 10px;
+}
+
+.heading .read:hover{
+    background-color: maroon;
+    color: white;
+    transition: 0.7s;
+    opacity: 0.8;
+}
+
+.rules{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 10px;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.rules div{
+    height: 540px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: 3px solid black;
+}
+
+.rules a{
+    text-decoration: none;
+}
+
+.rules a:hover{
+    opacity: 0.7;
+    background-color: black;
+    color: goldenrod;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.rules p{
+    color: white;
+    line-height: 22px;
+}
+
+.rules h2{
+    color: goldenrod;
+    padding-bottom: 20px;
+}
+
+.one{
+    background-color: blue;
+}
+
+.one h2{
+    color: maroon;
+    text-decoration: none;
+}
+
+.two{
+    background-color: maroon !important;
+}
+
+.two p{
+    color: white;
+}
+
+.two h2{
+    color: goldenrod;
+}
+
+.three{
+    background-color: maroon !important;
+}
+
+.three h2{
+    color: black;
+}
+
+.four{
+    background-color: goldenrod !important;
+}
+
+.four h2{
+    color: white;
+}
+
+.four p{
+    color: black;
+}
+
+.five{
+    background-color: burlywood;
+}
+
+.socials{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.socials br{
+    display: block;
+}
+
+.socials p{
+    padding-top: 5px;;
+    padding-left: 10px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.socials img{
+    width: 15px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.socials a{
+    color: white;
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left: 3px;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+.socials span{
+    color: wheat;
+    padding: 0px 10px 5px 10px;
+    background-color: transparent;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    
+}
+
+.socials a:hover{
+    opacity: 0.6;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    display: none;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+}
+
+.footer .trio{
+    display: none;
+}
+
+.copyright{
+    padding-left: 120px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:344px) {
+
+    /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 60px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.logo img{
+    width: 45px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 60px;
+    background-color: white;
+    width: 414px;
+    height: 790px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 95px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 18px;
+    width: 40px;
+    display: block;
+}
+
+.cancel{
+    width: 30px;
+    display: none;
+    padding-top: 15px;
+}
+
+
+
+
+
+/* Container */
+
+.heading{
+    padding-left: 30px;
+    margin-top: 120px;
+}
+
+.heading h1{
+    color: wheat;
+    padding-bottom: 10px;
+    font-size: 35px;
+    padding-left: 0px;
+}
+
+
+.heading span{
+    padding-left: 60px;
+}
+
+.heading p{
+    line-height: 28px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.heading span{
+    display: none;
+}
+
+.heading button{
+    background-color: rgb(238, 231, 211);
+    color: black;
+    padding: 2px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.more{
+    padding-left: 0px;
+    margin-left: -70px;
+    padding-top: 10px;
+}
+
+.heading .read:hover{
+    background-color: maroon;
+    color: white;
+    transition: 0.7s;
+    opacity: 0.8;
+}
+
+.rules{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 10px;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.rules div{
+    height: 560px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: 3px solid black;
+}
+
+.rules a{
+    text-decoration: none;
+}
+
+.rules a:hover{
+    opacity: 0.7;
+    background-color: black;
+    color: goldenrod;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.rules p{
+    color: white;
+    line-height: 22px;
+}
+
+.rules h2{
+    color: goldenrod;
+    padding-bottom: 20px;
+}
+
+.one{
+    background-color: blue;
+}
+
+.one h2{
+    color: maroon;
+    text-decoration: none;
+}
+
+.two{
+    background-color: maroon !important;
+}
+
+.two p{
+    color: white;
+}
+
+.two h2{
+    color: goldenrod;
+}
+
+.three{
+    background-color: maroon !important;
+}
+
+.three h2{
+    color: black;
+}
+
+.four{
+    background-color: goldenrod !important;
+}
+
+.four h2{
+    color: white;
+}
+
+.four p{
+    color: black;
+}
+
+.five{
+    background-color: burlywood;
+}
+
+.socials{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.socials br{
+    display: block;
+}
+
+.socials p{
+    padding-top: 5px;;
+    padding-left: 10px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.socials img{
+    width: 15px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.socials a{
+    color: white;
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left: 3px;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+.socials span{
+    color: wheat;
+    padding: 0px 10px 5px 10px;
+    background-color: transparent;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    
+}
+
+.socials a:hover{
+    opacity: 0.6;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 5px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 110px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+    
+}

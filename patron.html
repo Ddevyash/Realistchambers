@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/patron.css">
+    <link rel="stylesheet" href="./Responsiveness/patron-Responsiveness.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+
+
+    <div class="background">
+        <img src="./Image/Realiste-Logo.PNG" alt="">
+    </div>
+
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="./Image/ABU Logo.jpg" alt="">
+            <img src="./Image/Realiste-Logo.PNG" alt="">
+        </div>
+
+
+        <div class="menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li> <hr>
+                <li><a href="./court-rules.html">Court Rules</a></li> <hr>
+                <li><a href="./law-article.html">Past Qs</a></li> <hr>
+                <li><a href="./statutes.html">Statutes</a></li> <hr>
+                <li><a href="./history.html">History of the Chambers</a></li> <hr>
+                <li><a href="./coordinator.html">Coordinator's Profile</a></li> <hr>
+                <li><a href="./patron.html" class="home">Grand Patron's Profile</a></li> <hr>
+                <li><a href="./principal.html">Principal Partners</a></li> <hr>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="toggle">
+            <img src="./Image/hamburger.jpg" alt="" class="hamburger">
+            <img src="./Image/cancel.jpeg" alt="" class="cancel" >
+        </div>
+    </div>
+
+
+    <!-- Container -->
+
+
+    <div class="patron-profile">
+
+        <h1> Realist chambers Grand Patron (SAN) </h1>
+        
+        <hr> 
+
+        <div class="patron-content">
+            <div class="patron-note">
+                <h2>Biography of Muhammad Sani Katu (SAN), FCIPDM</h2>
+                <p>
+                    Born into the esteemed Ndanusa royal family of Bida, Niger State, in the vibrant era of the 1960s, Mohammed Sani Katu, SAN, is a beacon of excellence and compassion. From his early education at the renowned Government College, Bida, to his pursuit of law at Usman Dan Fodio University, Sokoto State, his journey has been one of unwavering dedication and brilliance.
+
+                    In 1989, he graduated with distinction, and by 1990, after completing his training at the Nigerian Law School in Lagos, he was called to the Nigerian Bar as a Solicitor and Advocate of the Supreme Court of Nigeria. His career began with the National Youth Service Corps, where he displayed a profound commitment to justice and service. He soon ventured into private legal practice in Kaduna, and by 1993, he joined Kaduna Polytechnic as a lecturer. Here, he ascended to the position of Senior Lecturer, shaping the minds of countless students and leaving an indelible mark on the institution.
+                    
+                    As a former Head of the Department of Legal Studies and a member of the Academic Board at Kaduna Polytechnic, Mohammed Sani Katu, SAN, has held numerous positions, each time demonstrating unparalleled leadership and vision. Within the Nigerian Bar Association's Kaduna Branch, he is affectionately known as the "Dangote of the Bar," a testament to his immense humanitarian and philanthropic efforts.
+                    
+                    He is also a dedicated member of the Muslim Lawyers Association of Nigeria (MULAN), making significant contributions at both local and national levels. His honor as Dapchin Chibok reflects his unwavering commitment to aiding the underprivileged and marginalized.
+                    
+                    In 2021, Mohammed Sani Katu, SAN, was bestowed the title of Grand Patron of Realist chambers, Faculty of Law, ABU Zaria. His involvement with the chambers has been instrumental in the growth and development of its students, providing them with invaluable guidance and support.
+
+                    Mohammed Sani Katu, SAN, is a man with a heart as vast as the ocean, whose kindness and generosity know no bounds. His jovial nature and infectious humor have a magical way of lifting spirits and healing the broken-hearted. He is a man of integrity, affectionately called "Mr. Talk and Do," whose actions speak louder than words. His generosity is so overwhelming and surreal that it feels like a never-ending river of kindness.
+                    He is truly a "Man of the People," a great humanitarian who has selflessly devoted his life to serving others. Many depend on his wisdom and guidance, as he makes everyone's problems his own. Known for his simplicity and inclusivity, Mohammed Sani Katu, SAN, ensures that no one is left behind. A devout Muslim, he has provided substantial financial support to promote the growth of Islam.
+
+                    An unassuming and consummate barrister, he has practiced law up to the highest court in the land, the Supreme Court of Nigeria. As a founding and principal partner of Mamman Nasir & Co., a firm of private legal practitioners established in 1996, he has left an indelible mark on the legal profession. A Fellow of the Chartered Institute of Public Diplomacy and Management (FCIPDM), Mohammed Sani Katu, SAN, is a recipient of numerous awards and accolades, a detribalized individual with many feathers in his cap.
+
+                    In every sense, Mohammed Sani Katu, SAN, is a living testament to the power of kindness, integrity, and dedication. His life story is not just a profile; it's an inspiring journey that continues to touch countless lives.
+                    
+                </p>
+
+            </div>
+
+            <div class="patron-image">
+                <img src="./Image/grand-patron.jpg" alt="">
+            </div>
+        </div>
+
+       
+        
+    </div>
+
+
+    <!-- Footer -->
+
+    <div class="footer">
+
+        <div class="uno">
+            <p><hr><a href="">Home</a> <hr></p>
+            <p><a href="">Past Qs</a></p> <hr>
+        </div>
+
+        <div class="duos">
+            <p><a href=""><hr>Coordinator's Profile</a> <hr></p>
+            <p><a href="">Statutes</a><hr></p>
+            <p><a href="">History of the Chambers</a></p> <hr>
+        </div>
+
+        <div class="trio">
+            <p> <hr><a href="">Grand Patron's Profile</a></p> <hr>
+            <p><a href="">Past Principal Partners</a></p> <hr>
+            <p><a href="">Contact</a></p> <hr>
+            <p><a href="">Court Rules</a></p> <hr>
+        </div>
+
+
+        <p class="copyright">©Realist chambers</p>
+
+        
+    </div>
+
+
+
+
+    <script>
+
+    let toggle = document.querySelector('.hamburger');
+    toggle.addEventListener('click', function(){
+    document.querySelector('.menu ul').style.display='block';
+    document.querySelector('.cancel').style.display='block';
+    this.style.display='none';
+    })
+
+    let cancel = document.querySelector('.cancel');
+    cancel.addEventListener('click', function(){
+    document.querySelector('.menu ul').style.display='none';
+    document.querySelector('.hamburger').style.display='block';
+    this.style.display='none';
+    })
+
+    </script>
+    
+</body>
+</html>

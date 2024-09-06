@@ -1,0 +1,184 @@
+/* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: hidden;
+    background-image: url(../Image/red\ and\ black\ wallpaper.jpeg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    /* background-color:black; */
+    margin-top: 10px;
+    height: 120px;
+    display: flex;
+}
+
+.logo{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.menu a{
+    color: rgb(186, 186, 186);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 20px;
+}
+
+.toggle{
+    display: none;
+
+}
+
+hr{
+    display: none;
+}
+
+
+/* container */
+
+
+.patron-profile{
+    background-attachment: blue;
+}
+
+.patron-note{
+    /* background-color: red; */
+    margin-right: 20px;
+    margin-left: 80px;
+}
+
+.patron-image{
+    z-index: 1;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+img{
+    width: 450px;
+    /* padding-top: 30px; */
+    /* margin-top: 50px; */
+    /* padding-left: 20px; */
+}
+
+.patron-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 12px;
+}
+
+.patron-profile h1{
+    color: wheat;
+    padding-left: 30px;
+    font-size: 40px;
+    padding-bottom:8px;
+}
+
+.patron-note h2{
+    color: white;
+    padding-top: 40px;
+}
+
+.patron-note p{
+    color: wheat;
+    padding-top: 25px;
+    line-height: 27px;
+}
+
+
+.patron-profile hr{
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    height: 160px;
+    margin-top: 120px;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: maroon;
+}
+
+.footer .uno{
+    display: flex;
+    margin-left: 570px;
+    margin-top: 20px;
+}
+
+.footer .duos{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.footer .trio{
+    display: flex;
+    margin-left: 415px;
+    margin-top: 10px; 
+}
+
+.copyright{
+    padding-left: 580px;
+    padding-top: 40px;
+    color: grey !important;
+}
+
